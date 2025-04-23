@@ -9,4 +9,9 @@ public class Heatblast extends Alien{
     public void power() {
         System.out.println(name + " sparked a fire!");
     }
+
+    @Override
+    public void flying() {
+        System.out.println(name + " is flying.");
+    }
 }

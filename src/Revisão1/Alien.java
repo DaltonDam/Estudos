@@ -1,6 +1,6 @@
 package Revisão1;
 
-abstract class Alien {
+abstract class Alien implements Fly{
     String name;
 
     public Alien(String name) {

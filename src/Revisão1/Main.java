@@ -6,6 +6,7 @@ public class Main {
         Alien heatblast = new Heatblast("Heatblast");
         heatblast.transform();
         heatblast.power();
+        heatblast.flying();
 
 
     }
