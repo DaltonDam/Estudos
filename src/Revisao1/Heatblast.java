@@ -1,4 +1,4 @@
-package Revisão1;
+package Revisao1;
 
 public class Heatblast extends Alien{
     public Heatblast(String name) {

@@ -1,4 +1,4 @@
-package Revisão1;
+package Revisao1;
 
 abstract class Alien implements Fly{
     String name;

@@ -1,4 +1,4 @@
-package Revisão1;
+package Revisao1;
 
 public interface Fly {
     void flying();
