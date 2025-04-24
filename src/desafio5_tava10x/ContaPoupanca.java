@@ -7,8 +7,9 @@ public class ContaPoupanca extends ContaBancaria {
     }
 
     @Override
-    public double depositar(double valor) {
-        return valor * 0.99;
+    public void depositar(double valor) {
+        double valorComTaxa = valor * 0.99;
+        saldo += valorComTaxa;
     }
 
 }

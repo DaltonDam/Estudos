@@ -1,17 +1,14 @@
 package desafio5_tava10x;
 
 public abstract class ContaBancaria implements Conta {
-    double saldo;
+    protected double saldo;
 
-    public ContaBancaria(double saldo) {
-        this.saldo = saldo;
+    public ContaBancaria(double saldoInicial) {
+        this.saldo = saldoInicial;
     }
 
     @Override
-    public void consultarSaldo() {
-
+    public double consultarSaldo() {
+        return saldo;
     }
-
-    @Override
-    public abstract double depositar(double valor);
 }

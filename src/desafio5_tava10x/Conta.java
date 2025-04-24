@@ -2,9 +2,9 @@ package desafio5_tava10x;
 
 public interface Conta {
 
-    void consultarSaldo();
+    double consultarSaldo();
 
-    double depositar(double valor);
+    void depositar(double valor);
 
 
 }

@@ -2,13 +2,13 @@ package desafio5_tava10x;
 
 public class ContaCorrente extends ContaBancaria{
 
-    public ContaCorrente(double saldo) {
-        super(saldo);
+    public ContaCorrente(double saldoInicial) {
+        super(saldoInicial);
     }
 
     @Override
-    public double depositar(double valor) {
-        return valor;
+    public void depositar(double valor) {
+        saldo += valor;
     }
 
 
